@@ -1,0 +1,16 @@
+/* src/components/Card.css */
+.fixed-card {
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height */
+    margin: 5px; /* Optional: Space between cards */
+  }
+  
+  .rounded-button {
+    border-radius: 20px; /* Rounded corners for the button */
+  }
+  
+  .bi {
+    font-size: 24px; /* Adjust icon size if needed */
+    margin-bottom: 10px; /* Space below the icon */
+  }
+  

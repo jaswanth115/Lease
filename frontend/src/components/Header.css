@@ -1,0 +1,41 @@
+/* Header.css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between Nav and ProfileContainer */
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between name and email */
+    margin-left: auto; /* Pushes the profile container to the right */
+    padding-right: 50px; /* Adds gap to the right corner */
+  }
+  
+  .profile-text {
+    font-size: 20px;
+    color: #0f3fa6;
+  }
+  

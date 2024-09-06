@@ -1,0 +1,87 @@
+/* AptBanner.css */
+
+.banner_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 0;
+    height: 100%; /* Adjust if necessary */
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .info {
+    width: 50%; /* Set width for centering */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    flex-direction: column; /* Keeps items stacked vertically */
+    justify-content: center; /* Vertically centers the items */
+    align-items: flex-start; /* Aligns items to the left horizontally */
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .block {
+    margin-top: 0%;
+  }
+  
+  .name, .balance_due, .amount, .payment_text, .address {
+    margin: 0;
+    font-size: 1rem; /* Responsive font size */
+    color: rgb(106, 34, 136);
+  }
+  
+  .name {
+    font-size: 1.2rem; /* Slightly larger for emphasis */
+    color: rgb(17, 0, 203);
+    display: inline;
+  }
+  
+  .balance_due {
+    font-size: 1.5rem;
+  }
+  
+  .amount {
+    font-size: 2rem;
+  }
+  
+  .address {
+    margin-top: 1%;
+    font-size: 1.1rem;
+  }
+  
+  .button_container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .setup_autopay {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .make_payment {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
